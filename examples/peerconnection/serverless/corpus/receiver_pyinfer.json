@@ -1,6 +1,6 @@
 {
     "serverless_connection": {
-        "autoclose": 20,
+        "autoclose": 2,
         "sender": {
             "enabled": false
         },
@@ -20,10 +20,10 @@
         },
         "video_file": {
             "enabled": false,
-            "height": 240,
-            "width": 320,
-            "fps": 10,
-            "file_path": "testmedia/test.yuv"
+            "height": 720,
+            "width": 1280,
+            "fps": 25,
+            "file_path": "testmedia/cxk_1.yuv"
         }
     },
     "audio_source": {
@@ -38,17 +38,17 @@
     "save_to_file": {
         "enabled": true,
         "audio": {
-            "file_path": "outaudio.wav"
+            "file_path": "output/outaudio.wav"
         },
         "video": {
-            "width": 320,
-            "height": 240,
-            "fps": 10,
-            "file_path": "outvideo.yuv"
+            "height": 720,
+            "width": 1280,
+            "fps": 25,
+            "file_path": "output/cxk_1_rtc.yuv"
         }
     },
     "logging": {
         "enabled": true,
-        "log_output_path": "webrtc.log"
+        "log_output_path": "output/webrtc.log"
     }
 }
