@@ -1,6 +1,6 @@
 {
     "serverless_connection": {
-        "autoclose": 2,
+        "autoclose": 60,
         "sender": {
             "enabled": false
         },
@@ -23,7 +23,7 @@
             "height": 720,
             "width": 1280,
             "fps": 25,
-            "file_path": "testmedia/cxk_1.yuv"
+            "file_path": "testmedia/cxk.yuv"
         }
     },
     "audio_source": {
@@ -44,7 +44,7 @@
             "height": 720,
             "width": 1280,
             "fps": 25,
-            "file_path": "output/cxk_1_rtc.yuv"
+            "file_path": "output/cxk_rtc.yuv"
         }
     },
     "logging": {
